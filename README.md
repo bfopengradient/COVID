@@ -3,7 +3,7 @@
 
 The analysis explores patterns in current new cases and deaths across countries. The data was sourced from the cdc and is made available in this repo. See cdc.csv.
 
-Three countries were chosen for this analysis. The results of the analysis are contained within the notebook entitled, covidresults.ipyn.
+Three countries were chosen for this analysis. The results of the analysis are contained within the notebook entitled, covidresults.ipynb.
 
 Within that notebook is an analysis of where Australia, Ireland and South Korea are in terms of flattening their respective curves.
 
