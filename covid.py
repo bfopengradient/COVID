@@ -22,7 +22,7 @@ class c:
 		#Get logs of variables
 		df2.index = pd.DatetimeIndex(df1.index).to_period('D')
 		df2_log = np.log(df2).diff().dropna()
-		#Run vector autoregressioon model with 14 day lags
+		#Run VAR model with 14 day lags
 		model = VAR(df2_log)
 		results = model.fit(maxlags=14,trend='nc')
 		#Save results to the summary dataframe
