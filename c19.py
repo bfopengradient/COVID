@@ -7,7 +7,7 @@ import statsmodels.api as sm
 from statsmodels.tsa.api import VAR
 
 class cov19():	
-    ###Class to read in CDC COVID data and produce VAR results###
+    """ Class to read in CDC COVID data and produce VAR results """
      
     #Read in cdc dataset. Set path below as needed.
 	data= pd.read_csv('...cdc.csv',index_col=0)
