@@ -1,5 +1,5 @@
  
-### VAR analysis of COVID_19 in different countries.
+### VAR analysis of COVID-19 in different countries.
 
 The analysis explores patterns in current new cases and deaths across countries. The data was sourced from the cdc and is made available in this repo. See cdc.csv.
 
