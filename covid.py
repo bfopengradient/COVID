@@ -10,7 +10,7 @@ from statsmodels.tsa.api import VAR
 
 class c:	
 
-	''' Class to perform VAR analysis in CDC COVID-19 data '''
+	''' Class to perform VAR analysis on CDC COVID-19 data '''
     #Define data path
 	data= pd.read_csv('..cdc.csv',index_col=0)
 
