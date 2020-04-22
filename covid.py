@@ -12,7 +12,7 @@ class c:
 
 	''' Class to perform VAR analysis in CDC COVID-19 data '''
     #Define data path
-	data= pd.read_csv('/Users/brianfarrell/Desktop/cdc.csv',index_col=0)
+	data= pd.read_csv('...cdc.csv',index_col=0)
 
 	def __init__(self,country):
 	 
