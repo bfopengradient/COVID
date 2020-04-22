@@ -10,7 +10,7 @@ from statsmodels.tsa.api import VAR
 
 class c:	
 
-	''' Class to perform VAR analysis in CDC COVID-19 data '''
+	''' Class to perform VAR analysis on CDC COVID-19 data '''
     #Define data path
 	data= pd.read_csv('...cdc.csv',index_col=0)
 
@@ -31,7 +31,7 @@ class c:
 		df2_log = np.log(df2).diff().dropna()
 		#Run vector autoregression model with 14 day lags
 		model = VAR(df2_log)
-		results = model.fit(maxlags=14)
+		results = model.fit(maxlags=14) #lag variables by up to 14 days
 		 
 		#Save results to the summary dataframe
 		i=results.pvalues.index
