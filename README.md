@@ -2,6 +2,7 @@
 ### VAR analysis of COVID-19 in different countries.
 
 The analysis explores patterns in current new cases and deaths across countries. The data was sourced from the cdc and is made available in this repo. See cdc.csv.
+Data covers the period 31/12/2019 to 13/4/2020 and has daily observations.
 
 Three countries were chosen for this analysis. The results of the analysis are contained within the notebook entitled, covidresults.ipynb.
 
