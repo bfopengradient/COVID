@@ -13,3 +13,5 @@ Vector Autoregression analysis picks up statistical relationships across time. D
 Visualising those statistical linkages was done by only showing links(coefficients) which held at the 99% confidence level. If a lag was not significant at this level is was suppressed to zero to make visualisation simpler.
 
 Countries like Australia and South Korea, who are flattening their respective curves, have only recent and negative links showing. At the time of writing, Ireland was in the process of flattening it's curve and was still showing positive linkages to older case and death numbers. 
+
+#### Mar/2020
